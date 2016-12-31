@@ -1,2 +1,8 @@
-# Calculator-in-JS
-A simple calculator made using HTML, CSS and Javascript
+#Calculator
+
+This calculator performs addition, subtraction, multiplication and division.
+
+#How to start
+Download or clone the files into your system. Then start by opening Calculator.html
+
+#Created by Aurobindo Debnath in Dec 2016
