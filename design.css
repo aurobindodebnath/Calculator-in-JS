@@ -16,7 +16,7 @@ body{
 .container{
     height: 406px;
     width: 350px;
-    margin: 56px auto;
+    margin: 40px auto;
     background-color: #474473;
     border: 3px inset #eac595;
     border-radius: 17px;
@@ -67,4 +67,13 @@ input:hover{
 .specialbuttons input{
     width: 143px;
     font-size: 20px;
+}
+
+
+footer{
+    height: 40px;
+    text-align: center;
+    font: bold normal 30px Verdana;
+    background-color: black;
+    color: gold;
 }
