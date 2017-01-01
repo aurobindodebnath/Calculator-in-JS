@@ -95,7 +95,30 @@ function sperform(m)
 			location.reload();
 			break;
 		case 'bs':
-			alert("This functioning has not been programmed yet!");
+			if((a!="")&&(sign!=""))
+			{
+				if(b=="")
+				{
+					sign="";
+					document.getElementById('numdisplay').innerHTML=a;
+				}
+				else//b has some value
+				{
+					var bx= new Array();
+					bx=b.split("");
+					bx.pop();
+					b=bx.join("");
+					document.getElementById('numdisplay').innerHTML=a+sign+b;
+				}
+			}
+			else if((a!="")&&(sign==""))
+			{
+				var ax=new Array();
+				ax=a.split("");
+				ax.pop();
+				a=ax.join("");
+				document.getElementById("numdisplay").innerHTML=a;
+			}
 			break;
 	}
 }
