@@ -1,6 +1,6 @@
 #Calculator
 
-This calculator performs addition, subtraction, multiplication and division.
+This is a simple calculator which performs addition, subtraction, multiplication and division.
 
 #How to start
 Download or clone the files into your system. Then start by opening Calculator.html
